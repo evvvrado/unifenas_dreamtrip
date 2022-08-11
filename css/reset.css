@@ -1,0 +1,288 @@
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+
+/* 
+$$\   $$\  $$$$$$\   $$$$$$\        $$\      $$\ $$$$$$$$\ $$\   $$\ $$$$$$$$\ 
+$$$\  $$ |$$  __$$\ $$  __$$\       $$$\    $$$ |$$  _____|$$ |  $$ |$$  _____|
+$$$$\ $$ |$$ /  $$ |$$ /  $$ |      $$$$\  $$$$ |$$ |      \$$\ $$  |$$ |      
+$$ $$\$$ |$$$$$$$$ |$$ |  $$ |      $$\$$\$$ $$ |$$$$$\     \$$$$  / $$$$$\    
+$$ \$$$$ |$$  __$$ |$$ |  $$ |      $$ \$$$  $$ |$$  __|    $$  $$<  $$  __|   
+$$ |\$$$ |$$ |  $$ |$$ |  $$ |      $$ |\$  /$$ |$$ |      $$  /\$$\ $$ |      
+$$ | \$$ |$$ |  $$ | $$$$$$  |      $$ | \_/ $$ |$$$$$$$$\ $$ /  $$ |$$$$$$$$\ 
+\__|  \__|\__|  \__| \______/       \__|     \__|\________|\__|  \__|\________|
+                                                                                
+*/
+
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+
+:root {
+    --primary: #2c42b5;
+    --secondary: #00a7ee;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+
+html * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+html a {
+    color: unset;
+}
+
+html img {
+    max-width: 100%;
+    display: block;
+}
+
+html button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+html ul,
+html ol {
+    margin: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+}
+html body {
+    height: 100%;
+    opacity: 1;
+    overscroll-behavior: none;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+/* Track */
+html::-webkit-scrollbar-track {
+    background: var(--primary);
+}
+
+/* Handle */
+html::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+}
+
+/* Handle on hover */
+html::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: var(--secondary);
+}
+
+html [disabled] {
+    pointer-events: none;
+    filter: grayscale(0);
+}
+html [hide] {
+    opacity: 0;
+    pointer-events: none;
+}
+html * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+html *,
+html *:before,
+html *:after {
+    box-sizing: inherit;
+    user-select: none;
+    outline: none;
+    -webkit-touch-callout: none;
+}
+html a,
+html button {
+    all: unset;
+    cursor: pointer;
+    color: inherit;
+    outline: none;
+    pointer-events: auto;
+    text-decoration: none;
+    background: none;
+    border: none;
+    border-radius: none;
+    color: inherit;
+    font: inherit;
+    outline: none;
+    pointer-events: auto;
+}
+html img {
+    max-width: 100%;
+    display: block;
+}
+html ul,
+html ol {
+    margin: 0;
+}
+html :focus {
+    outline: none;
+}
+html ::-moz-focus-inner {
+    border: 0;
+}
+html input,
+html select,
+html textarea {
+    background: none;
+    border: none;
+    border-radius: none;
+    color: inherit;
+    font: inherit;
+    outline: none;
+    pointer-events: auto;
+
+    all: unset;
+}
+html html,
+html body,
+html div,
+html span,
+html applet,
+html object,
+html iframe,
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html p,
+html blockquote,
+html pre,
+html a,
+html abbr,
+html acronym,
+html address,
+html big,
+html cite,
+html code,
+html del,
+html dfn,
+html em,
+html img,
+html ins,
+html kbd,
+html q,
+html s,
+html samp,
+html small,
+html strike,
+html strong,
+html sub,
+html sup,
+html tt,
+html var,
+html b,
+html u,
+html i,
+html center,
+html dl,
+html dt,
+html dd,
+html ol,
+html ul,
+html li,
+html fieldset,
+html form,
+html label,
+html legend,
+html table,
+html caption,
+html tbody,
+html tfoot,
+html thead,
+html tr,
+html th,
+html td,
+html article,
+html aside,
+html canvas,
+html details,
+html embed,
+html figure,
+html figcaption,
+html footer,
+html header,
+html hgroup,
+html menu,
+html nav,
+html output,
+html ruby,
+html section,
+html summary,
+html time,
+html mark,
+html audio,
+html video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html section,
+html header {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+html section .container,
+html header .container {
+    width: 100%;
+    max-width: calc(1181px + 30px);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 52%;
+    }
+}

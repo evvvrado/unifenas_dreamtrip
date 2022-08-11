@@ -1,0 +1,1094 @@
+.section_brazil {
+    background: url("../assets/brazil/ceu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100vw;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.section_brazil .container > img {
+    position: absolute;
+}
+
+.section_brazil img.conteudo {
+    top: 286px;
+    left: 0;
+    z-index: 3;
+}
+
+.section_brazil img.mar {
+    top: 496px;
+    left: 0;
+    z-index: 1;
+}
+
+.section_brazil img.sol {
+    top: 249px;
+    right: 407px;
+    z-index: 2;
+}
+
+.section_brazil .container .text-content {
+    position: absolute;
+    width: 465px;
+    height: 880px;
+    left: 300px;
+    top: 120px;
+    z-index: 4;
+}
+
+.section_brazil .container .text-content h1 {
+    position: absolute;
+    left: 21%;
+    right: 56.67%;
+    top: 22.31%;
+    bottom: 75.22%;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 145px;
+    line-height: 130px;
+
+    letter-spacing: 0.13em;
+
+    color: #44712e;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section_brazil .container .text-content span {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    /* gap: 27px; */
+
+    position: absolute;
+    left: 19.77%;
+    right: 58.75%;
+    top: 25.26%;
+    bottom: 40.53%;
+}
+
+.section_brazil .container .text-content span p strong {
+    font-weight: 700;
+}
+
+.section_brazil .container .text-content span p {
+    height: 64px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 26.1113px;
+    line-height: 32px;
+
+    color: #072760;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/* 
+======= INI BOXES BRAZIL =======
+  */
+
+.boxes_brazil {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22.89px;
+
+    position: absolute;
+    width: 842.3px;
+    height: 386.82px;
+    z-index: 8;
+    margin-top: 300px;
+    right: 120px;
+}
+
+.boxes_brazil .box {
+    position: relative;
+    width: 193.41px;
+    height: 386.82px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #00000066;
+}
+
+.boxes_brazil .box .img {
+    position: absolute;
+    width: 193.41px;
+    height: 178.53px;
+    left: 0px;
+    top: 0px;
+    /* background: url(Rectangle\ 2.svg); */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.boxes_brazil .box .det {
+    position: absolute;
+    width: 72.1px;
+    height: 21.74px;
+    left: 97.28px;
+    top: 168.23px;
+
+    background: #44712e;
+    border-radius: 69.8099px;
+}
+
+.boxes_brazil .box .title {
+    position: absolute;
+    width: 130px;
+    height: 21px;
+    left: 16.02px;
+    top: 204.85px;
+    font-weight: 700;
+    font-size: 17.3952px;
+    line-height: 21px;
+    color: #333333;
+}
+.boxes_brazil .box .detail {
+    position: absolute;
+    width: 130px;
+    height: 17px;
+    left: 16.02px;
+    top: 231.17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.7331px;
+    line-height: 17px;
+    color: #a5a5a5;
+}
+.boxes_brazil .box .text {
+    position: absolute;
+    width: 57px;
+    height: 28px;
+    left: 16.02px;
+    top: 271.23px;
+    font-weight: 400;
+    font-size: 11.6382px;
+    line-height: 14px;
+
+    color: #333333;
+}
+.boxes_brazil .box .valor {
+    position: absolute;
+    width: 68px;
+    height: 26px;
+    left: 18px;
+    top: 305px;
+}
+.boxes_brazil .box .valor .c {
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    top: 14px;
+    font-weight: 400;
+    font-size: 11.6382px;
+    line-height: 14px;
+    color: #333333;
+}
+.boxes_brazil .box .valor .nu {
+    position: absolute;
+    width: 51px;
+    height: 26px;
+    left: 17px;
+    font-weight: 700;
+    font-size: 26.5163px;
+    line-height: 32px;
+    color: #44712e;
+}
+.boxes_brazil .box .line {
+    position: absolute;
+    width: 192.26px;
+    height: 0px;
+    left: 1.14px;
+    top: 346.19px;
+
+    border: 1.14442px solid #f6f6f6;
+}
+.boxes_brazil .box .button {
+    position: absolute;
+    width: 68px;
+    height: 14px;
+    left: 62.94px;
+    top: 359.35px;
+    font-weight: 700;
+    font-size: 11.6382px;
+    line-height: 14px;
+    color: #072760;
+    text-decoration: none;
+}
+
+/* 
+  ======= FIM BOXES BRAZIL =======
+   */
+
+.section_japan {
+    background: url("../assets/japan/ceu.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100vw;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.section_japan .container > img {
+    position: absolute;
+}
+
+.section_japan img.conteudo {
+    bottom: -51px;
+    left: -72px;
+    z-index: 2;
+}
+
+.section_japan img.montanha {
+    bottom: -40px;
+    left: 0;
+    z-index: 3;
+}
+
+.section_japan img.folha {
+    bottom: 0;
+    left: 0;
+
+    z-index: 4;
+
+    animation: sakura-animation 8s infinite alternate;
+}
+
+.section_japan .container .text-content {
+    position: absolute;
+    left: 1200px;
+    top: 240px;
+    z-index: 4;
+}
+.section_japan .container .text-content > h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 107.162px;
+    line-height: 130px;
+    /* identical to box height */
+
+    letter-spacing: 0.13em;
+
+    color: #be0026;
+}
+
+.section_japan .container {
+    height: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding-top: 240px;
+}
+
+/* ==== ini boxes japan ==== */
+
+.boxes_japan {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22.89px;
+
+    /* position: absolute; */
+    left: 20%;
+    right: 47.4%;
+    top: 34.94%;
+    bottom: 29.96%;
+    z-index: 5;
+}
+
+.boxes_japan .box {
+    position: relative;
+    width: 193.41px;
+    height: 386.82px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #00000066;
+}
+
+.boxes_japan .box .img {
+    position: absolute;
+    width: 193.41px;
+    height: 178.53px;
+    left: 0px;
+    top: 0px;
+    /* background: url(Rectangle\ 2.svg); */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.boxes_japan .box .det {
+    position: absolute;
+    width: 72.1px;
+    height: 21.74px;
+    left: 97.28px;
+    top: 168.23px;
+
+    background: #be0026;
+    border-radius: 69.8099px;
+}
+
+.boxes_japan .box .title {
+    position: absolute;
+    width: 210px;
+    height: 21px;
+    left: 16.02px;
+    top: 204.85px;
+    font-weight: 700;
+    font-size: 17.3952px;
+    line-height: 21px;
+    color: #333333;
+}
+.boxes_japan .box .detail {
+    position: absolute;
+    width: 130px;
+    height: 17px;
+    left: 16.02px;
+    top: 231.17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.7331px;
+    line-height: 17px;
+    color: #a5a5a5;
+}
+.boxes_japan .box .text {
+    position: absolute;
+    width: 57px;
+    height: 28px;
+    left: 16.02px;
+    top: 271.23px;
+    font-weight: 400;
+    font-size: 11.6382px;
+    line-height: 14px;
+
+    color: #333333;
+}
+.boxes_japan .box .valor {
+    position: absolute;
+    width: 68px;
+    height: 26px;
+    left: 18px;
+    top: 305px;
+}
+.boxes_japan .box .valor .c {
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    top: 14px;
+    font-weight: 400;
+    font-size: 11.6382px;
+    line-height: 14px;
+    color: #333333;
+}
+.boxes_japan .box .valor .nu {
+    position: absolute;
+    width: 51px;
+    height: 26px;
+    left: 17px;
+    font-weight: 700;
+    font-size: 26.5163px;
+    line-height: 32px;
+    color: #be0026;
+}
+.boxes_japan .box .line {
+    position: absolute;
+    width: 192.26px;
+    height: 0px;
+    left: 1.14px;
+    top: 346.19px;
+
+    border: 1.14442px solid #f6f6f6;
+}
+.boxes_japan .box .button {
+    position: absolute;
+    width: 68px;
+    height: 14px;
+    left: 62.94px;
+    top: 359.35px;
+    font-weight: 700;
+    font-size: 11.6382px;
+    line-height: 14px;
+    color: #072760;
+    text-decoration: none;
+}
+
+/* ====fim boxes japan ==== */
+
+.section_japan .container .text-content span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 27px;
+}
+
+.section_japan .container .text-content span p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.1113px;
+    line-height: 32px;
+
+    color: #ffffff;
+}
+
+.section_japan .container .text-content span p strong {
+    font-weight: 700;
+}
+.section_japan .container .text-content img {
+    display: block;
+}
+
+@keyframes sakura-animation {
+    0% {
+        transform: translate3d(23px, 23px, 0);
+    }
+    50% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(23px, 23px, 0);
+    }
+}
+
+@keyframes upanddown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes animals_jumping {
+    0% {
+        bottom: 5px;
+    }
+    50% {
+        bottom: 0px;
+    }
+    100% {
+        bottom: 5px;
+    }
+}
+@keyframes animals_walking {
+    0% {
+        transform: translate(-250px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+/* 
+  ======= FIM SECTION japao =======
+   */
+
+.section_africa {
+    background: url("../assets/africa/fundo.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+    position: relative;
+    overflow: hidden;
+}
+.section_africa img#sol {
+    position: absolute;
+    width: 350px;
+    left: 0;
+    right: 79.63%;
+    top: -5.93%;
+    bottom: 51.79%;
+    z-index: 2;
+}
+.section_africa img#montanhas_animais {
+    position: absolute;
+    z-index: 3;
+    bottom: -40px;
+    left: 0;
+
+    width: 2540px;
+    max-width: unset;
+
+    animation: animals_walking 52s infinite linear;
+    /* animals_jumping 10s infinite ease-in-out; */
+}
+.section_africa .container .text-content {
+    position: absolute;
+    left: 377px;
+    top: 335px;
+    z-index: 4;
+}
+.section_africa .container span p strong {
+    font-weight: 700;
+}
+.section_africa .container span p {
+    height: 64px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 26.1113px;
+    line-height: 32px;
+
+    color: #fff;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.section_africa .container .text-content > h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 107.162px;
+    line-height: 130px;
+    /* identical to box height */
+
+    letter-spacing: 0.13em;
+
+    color: #fff;
+}
+
+.section_africa img#dunas {
+    position: absolute;
+    width: 2242.27px;
+    height: 335px;
+    left: 0px;
+    top: 600px;
+}
+
+.section_africa .container .text-content span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* gap: 27px; */
+}
+
+.boxes_africa {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22.89px;
+
+    position: absolute;
+    width: 842.3px;
+    height: 386.82px;
+    z-index: 8;
+    margin-top: 300px;
+    right: 120px;
+}
+
+.boxes_africa .box {
+    position: relative;
+    width: 193.41px;
+    height: 386.82px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px #00000066;
+}
+
+.boxes_africa .box .img {
+    position: absolute;
+    width: 193.41px;
+    height: 178.53px;
+    left: 0px;
+    top: 0px;
+    /* background: url(Rectangle\ 2.svg); */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.boxes_africa .box .det {
+    position: absolute;
+    width: 72.1px;
+    height: 21.74px;
+    left: 97.28px;
+    top: 168.23px;
+
+    background: #b03324;
+    border-radius: 69.8099px;
+}
+
+.boxes_africa .box .title {
+    position: absolute;
+    width: 210px;
+    height: 21px;
+    left: 16.02px;
+    top: 204.85px;
+    font-weight: 700;
+    font-size: 17.3952px;
+    line-height: 21px;
+    color: #333333;
+}
+.boxes_africa .box .detail {
+    position: absolute;
+    width: 130px;
+    height: 17px;
+    left: 16.02px;
+    top: 231.17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.7331px;
+    line-height: 17px;
+    color: #a5a5a5;
+}
+.boxes_africa .box .text {
+    position: absolute;
+    width: 57px;
+    height: 28px;
+    left: 16.02px;
+    top: 271.23px;
+    font-weight: 400;
+    font-size: 11.6382px;
+    line-height: 14px;
+
+    color: #333333;
+}
+.boxes_africa .box .valor {
+    position: absolute;
+    width: 68px;
+    height: 26px;
+    left: 18px;
+    top: 305px;
+}
+.boxes_africa .box .valor .c {
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    top: 14px;
+    font-weight: 400;
+    font-size: 11.6382px;
+    line-height: 14px;
+    color: #333333;
+}
+.boxes_africa .box .valor .nu {
+    position: absolute;
+    width: 51px;
+    height: 26px;
+    left: 17px;
+    font-weight: 700;
+    font-size: 26.5163px;
+    line-height: 32px;
+    color: #b03324;
+}
+.boxes_africa .box .line {
+    position: absolute;
+    width: 192.26px;
+    height: 0px;
+    left: 1.14px;
+    top: 346.19px;
+
+    border: 1.14442px solid #f6f6f6;
+}
+.boxes_africa .box .button {
+    position: absolute;
+    width: 68px;
+    height: 14px;
+    left: 62.94px;
+    top: 359.35px;
+    font-weight: 700;
+    font-size: 11.6382px;
+    line-height: 14px;
+    color: #072760;
+    text-decoration: none;
+}
+
+/* 
+  ======= FIM SECTIOn AFRICA =======
+   */
+
+.section_form {
+    min-height: 100vh;
+}
+.section_form .container {
+    height: 100%;
+    padding-top: 35rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.section_form .container form {
+    width: 100%;
+}
+.section_form .container form#pagamento-form {
+    display: none;
+}
+
+.section_form .container .form-area {
+    width: 100%;
+    max-width: 40rem;
+    padding-bottom: 5rem;
+}
+
+.section_form .container form fieldset {
+    display: none;
+}
+
+.section_form .container form label,
+.section_form .container form label select,
+.section_form .container form label input,
+.section_form .container form label {
+    font-size: 1.6rem;
+    width: 100%;
+    display: block;
+    cursor: text;
+    box-sizing: border-box;
+}
+
+.section_form .container form button {
+    height: 5.2rem;
+    width: 100%;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial;
+    font-size: 1.8rem;
+    color: white;
+
+    transition: 0.32s;
+}
+.section_form .container form button:hover {
+    opacity: 0.8;
+}
+
+.section_form .container form button.before {
+    margin-bottom: 3rem;
+    color: #202020;
+    background: #f7f7f7;
+}
+
+:is(select, input):focus {
+    border: 1px solid var(--primary);
+}
+
+.section_form .container form label {
+    margin-bottom: 2rem;
+}
+.section_form .container form label select,
+.section_form .container form label input {
+    margin-top: 1rem;
+    height: 5.2rem;
+    /* border: solid 1px #e4e4e4; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: #f7f7f7;
+}
+div.footer {
+    position: absolute;
+    width: 1920px;
+    height: 262px;
+    left: 0px;
+    top: 821px;
+
+    background: #2c42b5;
+}
+div.footer img.logo {
+    position: absolute;
+    width: 136px;
+    height: 35.47px;
+    left: 404px;
+    top: 91px;
+}
+div.footer span.line {
+    position: absolute;
+    width: 1114.5px;
+    height: 0px;
+    left: 403.5px;
+    top: 197px;
+
+    border: 1px solid #3d51bb;
+}
+div.direitos {
+    position: absolute;
+    width: 1106px;
+    height: 18px;
+    left: 408px;
+    top: 213px;
+}
+div.direitos p {
+    position: absolute;
+    width: 351px;
+    height: 18px;
+    left: 0px;
+    top: 8px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5821px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+
+footer {
+    background-color: #2c42b5;
+}
+
+footer section .container {
+    padding-top: 87px;
+    padding-bottom: 23px;
+}
+
+footer section .container .top-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 66px;
+
+    border-bottom: 1px solid #3d51bb;
+}
+
+footer section .container .flags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+footer section .container .flags img {
+    border-radius: 100%;
+    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0.25);
+    transition: 0.32s;
+}
+
+footer section .container .flags img:hover {
+    transform: scale(1.06);
+}
+
+footer section .container .bottom-area {
+    padding-top: 23px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer section .container .bottom-area span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5821px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+footer section .container .bottom-area span strong {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    body section,
+    header,
+    footer,
+    img {
+        display: none !important;
+    }
+
+    body::after {
+        content: "Para desfrutar dessa experiência é recomendado o uso de uma tela maior.";
+        color: white;
+        display: block;
+
+        height: 100vh;
+        width: 100vw;
+
+        background-color: blue;
+
+        text-align: center;
+        font-size: 62px;
+    }
+}
+
+div.box {
+    transition: 0.32s;
+}
+div.box:hover {
+    transform: scale(1.05);
+}
+div.box:hover a.button {
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #f6f6f6;
+}
+
+table th,
+table td {
+    border: solid 1px #f6f6f6;
+    font-size: 1.6rem;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 1366px) {
+    .section_brazil .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+
+        height: 100%;
+
+        flex-direction: row-reverse;
+    }
+
+    .section_brazil .container .text-content {
+        position: static;
+        height: unset;
+    }
+
+    .section_brazil .container .text-content h1,
+    .section_brazil .container .text-content span {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .boxes_brazil {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-top: 0;
+    }
+
+    .section_africa .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+
+        height: 100%;
+
+        flex-direction: row-reverse;
+    }
+
+    .section_africa .container .text-content {
+        position: static;
+        height: unset;
+    }
+
+    .section_africa .container .text-content h1,
+    .section_africa .container .text-content span {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .boxes_africa {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-top: 0;
+    }
+
+    .section_japan .container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 4rem;
+
+        height: 100%;
+
+        flex-direction: row-reverse;
+    }
+
+    .section_japan .container .text-content {
+        position: static;
+        height: unset;
+    }
+
+    .section_japan .container .text-content h1,
+    .section_japan .container .text-content span {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .boxes_japan {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-top: 0;
+    }
+
+    .section_africa,
+    .section_brazil,
+    .section_japan {
+        height: 120vh;
+    }
+
+    .boxes_japan {
+        z-index: 6;
+    }
+
+    .section_japan .container .text-content {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .section_brazil,
+    .section_africa,
+    .section_japan {
+        height: 150vh;
+    }
+    .section_brazil .container,
+    .section_africa .container,
+    .section_japan .container {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .section_form .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+}

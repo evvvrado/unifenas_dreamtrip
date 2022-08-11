@@ -1,0 +1,55 @@
+body header {
+    padding-top: 44px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 666;
+}
+
+header .container nav,
+header .container nav ul {
+    width: 100%;
+    transform-origin: center;
+    transition: 0.32s;
+}
+
+header .container nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container nav ul li a.planes {
+    height: 44px;
+    width: 44px;
+
+    display: block;
+
+    background-color: white;
+    border-radius: 100%;
+
+    overflow: hidden;
+    gap: 44px;
+    transition: 0.32s;
+}
+
+header .container nav ul li a.planes img {
+    margin: auto;
+    display: block;
+
+    width: 19px;
+    height: 19px;
+    transition: 0.32s;
+    margin-top: 12px;
+    position: relative;
+    top: 0;
+}
+header .container nav ul li a.planes:hover {
+    transform: scale(1.05);
+    background-color: #2c42b5;
+}
+
+header .container nav ul li a.planes:hover img {
+    top: -31px;
+    filter: brightness(0) invert(1);
+}

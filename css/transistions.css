@@ -1,0 +1,71 @@
+#transition_01 {
+    position: absolute;
+    z-index: 5;
+
+    width: 3000px;
+    max-width: unset;
+    height: auto;
+
+    transform: translate(-200px, -500px);
+    animation: transition_animation 24s linear infinite alternate;
+}
+
+@keyframes transition_animation {
+    100% {
+        transform: translate(-800px, -500px);
+    }
+}
+
+#transition_02 {
+    position: absolute;
+    z-index: 5;
+
+    width: 3000px;
+    max-width: unset;
+    height: auto;
+
+    transform: translate(-200px, -300px);
+    animation: transition_animation_2 24s linear 1s infinite alternate;
+}
+
+@keyframes transition_animation_2 {
+    100% {
+        transform: translate(-800px, -300px);
+    }
+}
+
+#transition_03 {
+    position: absolute;
+    z-index: 5;
+
+    width: 3000px;
+    max-width: unset;
+    height: auto;
+
+    transform: translate(-200px, -300px);
+    animation: transition_animation_2 24s linear 1s infinite alternate;
+}
+
+@keyframes transition_animation_3 {
+    100% {
+        transform: translate(-800px, -300px);
+    }
+}
+
+#transition_04 {
+    position: absolute;
+    z-index: 5;
+
+    width: 3000px;
+    max-width: unset;
+    height: auto;
+
+    transform: translate(-200px, -300px);
+    animation: transition_animation_2 24s linear 1s infinite alternate;
+}
+
+@keyframes transition_animation_4 {
+    100% {
+        transform: translate(-800px, -300px);
+    }
+}
